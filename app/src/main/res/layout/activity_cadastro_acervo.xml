@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroAcervo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etIdArt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nº Registro MOM-"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etNomeAr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nome:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/doadoPo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Doado por:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Origen: "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Época: "
+            android:inputType="textPersonName" />
+
+        <ImageView
+            android:id="@+id/imgObj"
+            android:layout_width="match_parent"
+            android:layout_height="244dp"
+            app:srcCompat="@drawable/telef" />
+
+        <Button
+            android:id="@+id/btSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar" />
+
+        <Button
+            android:id="@+id/btapagarTudo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apagar" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
